@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: 0;
+        }
+        body {
+              width: 100vw;
+              height: 100vh;
+              background-image: url("img/jujutsu-kaisen.jpg");
+              background-size: 100%;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: black;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+        }
+        form{
+            background-color: #ffffff8e;
+             max-width: 500px;
+             height: 250px;
+             padding: 40px;
+             border-radius: 20px;  
+        }
+        form h1{
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+    </head>
+    <body>
+    
+    
+        <form action="#">
+           <div><h1>Formulario</h1></div>
+     
+            <label for="Nome">Nome</label>
+            <input type="text" name="Nome" id="Nome">
+            <div>
+                <label for="Data">Nasc</label>
+                <input type="datetime" name="Data" id="Data">
+            </div>
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="sexo">masculino</label>
+                <input type="radio" name="sexo" id="sexo">
+        
+                <label for="sexo">femenino</label>
+                <input type="radio" name="sexo" id="sexo">
+            </div>
+            <div>
+                <h2>Gosta de Jujustsu?</h2>
+                <label for="Sim">Sim</label>
+                <input type="radio" name="Sim" id="Sim">
+        
+                <label for="Sim">Não</label>
+                <input type="radio" name="Sim" id="Sim">
+            </div>
+            <div>
+                <label for="fav">Seu Personagem fav</label>
+                <input type="text" name="fav" id="fav">
+            </div>
+            <div>
+                <h2> Gojo ou Sukuna </h2>
+                <label for="Sim">Gojo</label>
+                <input type="radio" name="Sim" id="Sim">
+        
+                <label for="Sim">Sukuna</label>
+                <input type="radio" name="Sim" id="Sim">
+            </div>
+           <div>
+            <a href="index.html">Voltar</a>
+           </div> 
+            <a href="quiz.html">Proxima pagina</a>
+        </form>
+    
+    
+        
+        
+    </body>
+    </html>
